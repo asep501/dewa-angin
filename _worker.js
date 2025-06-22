@@ -5,12 +5,13 @@ import { connect } from "cloudflare:sockets";
 // Variables
 const rootDomain = "sendalcapit.my.id"; // Ganti dengan domain utama kalian
 const serviceName = "dewaangin"; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiKey = "WhSYkbEhmr7VRCv26Mq1SkHCSxTC88lrId_cof1E"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "linalaela37@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "fca7d9cedea22f83dd90efb5f1e0be52"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "9e1aaedf0973cd89c6365c1a27a00ac5"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-let isApiReady = false;
-let proxyIP = "";
+let isApiReady = TRUE;
+let proxyIP = "	
+103.15.226.115";
 let cachedProxyList = [];
 
 // Constant
